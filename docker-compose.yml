@@ -2,8 +2,6 @@ version: '3'
 services:
 
   tor-server:
-    ports:
-      - "80:80"
     build:
       context: tor
       args:
