@@ -1,0 +1,3 @@
+Log notice stdout
+HiddenServiceDir /var/lib/tor/proxy/
+HiddenServicePort 80 localhost:80

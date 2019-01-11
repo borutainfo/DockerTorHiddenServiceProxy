@@ -1,0 +1,13 @@
+version: '3'
+services:
+
+  tor-server:
+    ports:
+      - "80:80"
+    build:
+      context: tor
+      args:
+        PRIVATE_KEY: |
+          -----BEGIN RSA PRIVATE KEY-----
+          {YOUR_DOMAIN_PRIVATE_KEY}
+          -----END RSA PRIVATE KEY-----
